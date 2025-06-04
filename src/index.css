@@ -1,0 +1,8 @@
+body {
+  background: linear-gradient(to bottom right, #adc3f2, #8ba2e0, #000000);
+}
+/* Modern Input Field Styles */
+input{
+  border-radius: 5%;
+}
+
