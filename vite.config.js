@@ -8,5 +8,5 @@ export default defineConfig({
     host: true,      // 👈 allow external access
     port: 5173,      // 👈 or any port you prefer
   },
-
+base: "/Stres-Calculator/",
 })
