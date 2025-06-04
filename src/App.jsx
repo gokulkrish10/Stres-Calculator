@@ -42,7 +42,7 @@ function App() {
     if (newCount === 24) {
       // Calculate status
       let status = '';
-      if (newScore < 15) status = 'No Stress';
+      if (newScore <= 15) status = 'No Stress';
       else if (newScore <= 30) status = 'Moderate Stress';
       else if (newScore <= 45) status = 'High Stress';
       else status = 'Very High Stress';
